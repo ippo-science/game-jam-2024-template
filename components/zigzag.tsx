@@ -1,5 +1,11 @@
 import Image from 'next/image'
-import Image01 from '@/public/images/testimonial-01.jpg'
+
+import PeopleCard from "@/components/people-card";
+import Image01 from '@/public/images/start-line.svg'
+import Image02 from '@/public/images/open.svg'
+import Image03 from '@/public/images/finish.svg'
+import Image04 from '@/public/images/pitch.svg'
+import Image05 from '@/public/images/win.svg'
 
 import DescriptionCard from "@/components/description-card";
 
@@ -64,7 +70,7 @@ const description_cards = [
     {
         title: "Подведение итогов",
         list: [],
-        description: "По итогам финала жюри определит победителей ГеймДжема. ",
+        description: "По итогам финала жюри определит победителей Геймджема. ",
         date_start: "до 23:59 12 апреля 2024"
     }
 ]
@@ -77,7 +83,7 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Roadmap</div>
-            <h1 className="h2 mb-4">Как пройдет ГеймДжем?</h1>
+            <h1 className="h2 mb-4">Как пройдет Геймджем?</h1>
             <p className="text-xl text-gray-400">Наше путешествие обещает быть насыщенным и интересным.
               Не пропускай возможность прокачать свои навыки и побороться за главный приз.</p>
           </div>
@@ -91,7 +97,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={340}
                                height={405} alt="Features 01"/>
                     </div>
                     {/* Content */}
@@ -109,7 +115,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image02} width={340}
                                height={405} alt="Features 04"/>
                     </div>
                     <DescriptionCard
@@ -134,7 +140,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image03} width={340}
                                height={405} alt=""/>
                     </div>
                     {/* Content */}
@@ -154,7 +160,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image04} width={340}
                                height={405} alt="Features 04"/>
                     </div>
                     <DescriptionCard
@@ -174,7 +180,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0"
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image05} width={340}
                                height={405} alt="Features 01"/>
                     </div>
                     {/* Content */}

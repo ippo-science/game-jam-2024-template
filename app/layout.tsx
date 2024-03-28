@@ -19,7 +19,7 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'Инди-Геймджем 2024',
+  title: 'Инди Геймджем 2024',
   description: 'Соревнование по созданию игр',
 }
 

@@ -25,7 +25,7 @@ export default function Footer() {
 
               </div>
               <div className="text-gray-400">
-                Инди-ГеймДжем - это мероприятие, нацеленное на развитие индустрии разработки компьютерных игр в России.
+                Инди Геймджем - это мероприятие, нацеленное на развитие индустрии разработки компьютерных игр в России.
                 <br/>
                 Следите за новостями в нашем <a href="https://vk.com/indiegamejam"
                    className="text-purple-600 hover:text-purple-400 transition duration-150 ease-in-out">сообществе в ВКонтакте</a>.
