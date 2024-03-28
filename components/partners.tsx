@@ -21,19 +21,18 @@ export default function Partners() {
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <Image src={'/images/logo-indie-go.jpg'} width={64} height={64} alt="" />
+              <Image src={'/images/logo-indie-go.png'} width={64} height={64} alt="" />
               <h4 className="h4 mb-2">Indie Go</h4>
               {/*<p className="text-lg text-gray-400 text-center">*/}
               {/*  Лидеры индустрии расскажут вам о своем опыте и поделятся советами.*/}
               {/*  Посмотрите стримы прошлых лет в ?нашем сообществе?.*/}
-
               {/*</p>*/}
             </div>
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100"
                  data-aos-anchor="[data-aos-id-blocks]">
-              <Image src={'/images/logo-gmng.jpg'} width={64} height={64} alt="" />
+              <Image src={'/images/logo-gmng.png'} width={64} height={64} alt="" />
               <h4 className="h4 mb-2">GMNG</h4>
               {/*<p className="text-lg text-gray-400 text-center">*/}
               {/*  На ГеймДжеме вы познакомитесь с единомышленниками и найдете новых друзей.*/}
