@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Image01 from '@/public/images/testimonial-01.jpg'
-import PeopleCard from "@/components/people-card";
 
 import DescriptionCard from "@/components/description-card";
 

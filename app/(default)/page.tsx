@@ -1,4 +1,3 @@
-import Blocks from "@/components/blocks";
 
 export const metadata = {
   title: 'Инди-Геймджем',
