@@ -11,6 +11,7 @@ import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import Partners from "@/components/partners";
 import FAQ from "@/components/faq";
+import Prizes from "@/components/prizes";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Features /> {/*todo описание геймджема*/}
         <Partners /> {/*todo партнеры*/}
       {/*призовой фонд*/}
+        <Prizes />
       <Zigzag /> {/*todo расписание и награды*/}
       <Testimonials /> {/*todo эксперты*/}
         <FAQ /> {/*todo вопросы и ответы*/}

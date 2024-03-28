@@ -87,10 +87,10 @@ export default function Zigzag() {
             <div className="grid gap-20">
 
                 {/* 1st item */}
-                <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                <div className="flex gap-6 items-center  flex-col md:flex-row">
                     {/* Image */}
                     <div
-                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                        className="max-w-xl md:max-w-none md:w-full mx-auto mb-8 md:mb-0 "
                         data-aos="fade-up">
                         <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
                                height={405} alt="Features 01"/>
@@ -101,11 +101,20 @@ export default function Zigzag() {
                         description={description_cards[0].description}
                         list={description_cards[0].list}
                         date_start={description_cards[0].date_start}
+
+
                     />
                 </div>
 
-                <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                <div className="flex md:flex-row-reverse gap-6 items-center  flex-col">
+                    <div
+                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 mb-8 md:mb-0 "
+                        data-aos="fade-up">
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
+                               height={405} alt="Features 04"/>
+                    </div>
                     <DescriptionCard
+
                         title={description_cards[1].title}
                         description={description_cards[1].description}
                         list={description_cards[1].list}
@@ -114,25 +123,20 @@ export default function Zigzag() {
                     />
 
                     {/* Image */}
-                    <div
-                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
-                        data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
-                               height={405} alt="Features 04"/>
-                    </div>
+
                     {/* Content */}
 
                 </div>
 
                 {/* 4th item */}
 
-                <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                <div className="flex gap-6 items-center md:flex-row  flex-col">
                     {/* Image */}
                     <div
-                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 "
                         data-aos="fade-up">
                         <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
-                               height={405} alt="Features 01"/>
+                               height={405} alt=""/>
                     </div>
                     {/* Content */}
                     <DescriptionCard
@@ -145,29 +149,31 @@ export default function Zigzag() {
                 </div>
 
                 {/* 5th item */}
-                <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                <div className="flex md:flex-row-reverse gap-6 items-center flex-col">
+
+                    {/* Image */}
+                    <div
+                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 "
+                        data-aos="fade-up">
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
+                               height={405} alt="Features 04"/>
+                    </div>
                     <DescriptionCard
                         title={description_cards[3].title}
                         description={description_cards[3].description}
                         list={description_cards[3].list}
                         date_start={description_cards[3].date_start}
+
                     />
-                    {/* Image */}
-                    <div
-                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
-                        data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
-                               height={405} alt="Features 04"/>
-                    </div>
                     {/* Content */}
 
 
                 </div>
 
-                <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+                <div className="flex gap-6 items-center md:flex-row  flex-col">
                     {/* Image */}
                     <div
-                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
+                        className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0"
                         data-aos="fade-up">
                         <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={540}
                                height={405} alt="Features 01"/>
@@ -178,6 +184,7 @@ export default function Zigzag() {
                         description={description_cards[4].description}
                         list={description_cards[4].list}
                         date_start={description_cards[4].date_start}
+
                     />
                 </div>
 

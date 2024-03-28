@@ -43,7 +43,9 @@ export default function Partners() {
             {/* 3rd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200"
                  data-aos-anchor="[data-aos-id-blocks]">
-                <Image src={'/images/logo-mirea.png'}  width={64} height={64} alt="" />
+                <Image src={'/images/logo-mirea.png'}  width={64} height={64} alt=""
+                style={{height: 'auto', width: '64px'}}
+                />
               <h4 className="h4 mb-2">РТУ МИРЭА</h4>
               {/*<p className="text-lg text-gray-400 text-center">*/}
               {/*  72 часа на создание игры. Это время, когда вы забудете о мире вокруг и погрузитесь в GameDEV.*/}
