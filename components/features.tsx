@@ -10,8 +10,8 @@ export default function Features() {
               Что вас ждет на этот раз
               </h2>
             <p className="text-xl text-gray-400">
-              В прошлом году мы провели наш первый ГеймДжем. На нем собралось более
-              50 участников, которые создали более 20 игр.
+              В прошлом году мы провели наш первый Геймджем. На нем собралось более
+              100 участников, которые создали более 20 игр.
               В этом году мы хотим удвоить эти цифры. Присоединяйтесь!
             </p>
           </div>
@@ -28,8 +28,8 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Супер-стримы</h4>
               <p className="text-lg text-gray-400 text-center">
-                Лидеры индустрии расскажут вам о своем опыте и поделятся советами.
-                Посмотрите стримы прошлых лет в ?нашем сообществе?.
+                Лидеры инди-индустрии расскажут вам о своем опыте и поделятся советами.
+                А посмотрить стримы прошлых лет можно в нашем сообществе.
 
               </p>
             </div>
@@ -39,15 +39,17 @@ export default function Features() {
                  data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32"/>
-                <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                  <path className="stroke-current text-purple-300"
+                        d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415"/>
+                  <circle className="stroke-current text-purple-300" cx="17" cy="5" r="3"/>
                   <path className="stroke-current text-purple-100"
-                        d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5"/>
-                  <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3"/>
+                        d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948"/>
                 </g>
               </svg>
               <h4 className="h4 mb-2">Знакомства</h4>
               <p className="text-lg text-gray-400 text-center">
-                На ГеймДжеме вы познакомитесь с единомышленниками и найдете новых друзей.
+                На Геймджеме вы познакомитесь с единомышленниками и найдете новых друзей.
                 Собирайте команду и создавайте игры вместе.
               </p>
             </div>
@@ -57,12 +59,10 @@ export default function Features() {
                  data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32"/>
-                <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-300"
-                        d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415"/>
-                  <circle className="stroke-current text-purple-300" cx="17" cy="5" r="3"/>
+                <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
                   <path className="stroke-current text-purple-100"
-                        d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948"/>
+                        d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5"/>
+                  <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3"/>
                 </g>
               </svg>
               <h4 className="h4 mb-2">Погружение</h4>

@@ -1,7 +1,7 @@
 import Blocks from "@/components/blocks";
 
 export const metadata = {
-  title: 'Инди-Геймджем',
+  title: 'Инди Геймджем',
   description: 'Соревнование по созданию игр',
 }
 

@@ -21,19 +21,19 @@ export default function Header() {
               <li>
                 <a
                   href="#roadmap"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-cyan-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Расписание
                 </a>
               </li>
               <li>
                 {/*todo login*/}
-                <a href="/" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                <a href="/" className="btn-sm text-black bg-cyan-500 hover:bg-cyan-600 ml-3">
                   Регистрация
                 </a>
               </li>
                 <li>
-                    <Link href="#faq" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                    <Link href="#faq" className="font-medium text-cyan-500 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                     FAQ
                     </Link>
                 </li>

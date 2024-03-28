@@ -27,7 +27,7 @@ export default function DescriptionCard({ title, description, list, date_start, 
                 </ul>{
                 /*todo login*/}
                 {withButt ?
-                    <a href="/" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 items-center mt-4 max-w-max">
+                    <a href="/" className="btn-sm text-black bg-cyan-500 hover:bg-cyan-600 ml-3 items-center mt-4 max-w-max">
                         Регистрация
                     </a> : null}
             </div>

@@ -62,7 +62,7 @@ export default function MobileMenu() {
         <ul className="bg-gray-800 px-4 py-2">
           <li>
             <a href="#roadmap"
-               className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+               className="flex font-medium w-full text-cyan-500 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               Расписание
             </a>
           </li>
@@ -70,13 +70,13 @@ export default function MobileMenu() {
             {/*todo login*/}
             <a
               href="#"
-              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
+              className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-black bg-cyan-500 hover:bg-cyan-600 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
                 Регистрация
             </a>
             <a
                 href="#faq"
-                className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
+                className="flex font-medium w-full text-cyan-500 hover:text-gray-200 py-2 justify-center" onClick={() => setMobileNavOpen(false)}>
               FAQ
             </a>
           </li>
