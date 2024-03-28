@@ -19,7 +19,7 @@ export default function Footer() {
                   <Image src={'/images/logo.svg'} alt="logo" height={50} width={50} />
                 </Link>
 
-                <a href="/" className="inline-block" aria-label="Cruip">
+                <a href="https://vk.com/ippo_science" className="inline-block" aria-label="Cruip">
                     <Image src={'/images/sience_crew_dark.png'} alt="logo" height={50} width={50} />
                 </a>
 
@@ -27,7 +27,7 @@ export default function Footer() {
               <div className="text-gray-400">
                 Инди-ГеймДжем - это мероприятие, нацеленное на развитие индустрии разработки компьютерных игр в России.
                 <br/>
-                Следите за новостями в нашем <a href=""
+                Следите за новостями в нашем <a href="https://vk.com/indiegamejam"
                    className="text-purple-600 hover:text-purple-400 transition duration-150 ease-in-out">сообществе в ВКонтакте</a>.
                 <br/>
                 По всем вопросам пишите на почту <a href="mailto:ippo_science@mirea.ru"
@@ -49,15 +49,19 @@ export default function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Участие</h6>
                 <ul>
                   <li className="mb-1">
-                    <a href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    {/*todo login */}
+                    <a href=""
+                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Зарегистрироваться</a>
                   </li>
                     <li className="mb-1">
+                        {/*todo reglament*/}
                         <a href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                         Положение о проведении</a>
                     </li>
                     <li className="mb-1">
-                        <a href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                        <a href="#faq"
+                           className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                         Часто задаваемые вопросы</a>
                     </li>
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Partners() {
   return (
-    <section>
+    <section id="partners" >
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 

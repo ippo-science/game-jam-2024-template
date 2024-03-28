@@ -20,19 +20,20 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="#"
+                  href="#roadmap"
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Расписание
                 </a>
               </li>
               <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
+                {/*todo login*/}
+                <a href="/" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
                   Регистрация
-                </Link>
+                </a>
               </li>
                 <li>
-                    <Link href="/faq" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                    <Link href="#faq" className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                     FAQ
                     </Link>
                 </li>

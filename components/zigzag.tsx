@@ -71,7 +71,7 @@ const description_cards = [
 ]
 export default function Zigzag() {
   return (
-    <section>
+    <section id={"roadmap"}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
@@ -101,7 +101,7 @@ export default function Zigzag() {
                         description={description_cards[0].description}
                         list={description_cards[0].list}
                         date_start={description_cards[0].date_start}
-
+                        withButt={true}
 
                     />
                 </div>

@@ -3,13 +3,14 @@ interface DescriptionCardProps {
     description: string;
     list: string[];
     date_start: string;
+    withButt?: boolean;
 
 }
 
-export default function DescriptionCard({ title, description, list, date_start }: DescriptionCardProps) {
+export default function DescriptionCard({ title, description, list, date_start, withButt=false }: DescriptionCardProps) {
     return (
         <div className={`max-w-xl md:max-w-none md:w-full mx-auto `} data-aos="fade-right">
-            <div className="md:pr-4 lg:pr-12 xl:pr-16">
+            <div className="md:pr-4 lg:pr-12 xl:pr-16 flex flex-col">
                 <div className="font-architects-daughter text-xl text-purple-600 mb-2">{date_start}</div>
                 <h3 className="h3 mb-3">{title}</h3>
                 <p className="text-xl text-gray-400 mb-4">{description}</p>
@@ -23,7 +24,12 @@ export default function DescriptionCard({ title, description, list, date_start }
                         </li>
                     ))}
 
-                </ul>
+                </ul>{
+                /*todo login*/}
+                {withButt ?
+                    <a href="/" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3 items-center mt-4 max-w-max">
+                        Регистрация
+                    </a> : null}
             </div>
         </div>
 

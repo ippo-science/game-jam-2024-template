@@ -19,7 +19,7 @@ export default function Home() {
       <Hero /> {/*todo видос и основная мнафа*/}
       <Features /> {/*todo описание геймджема*/}
         <Partners /> {/*todo партнеры*/}
-      {/*призовой фонд*/}
+
         <Prizes />
       <Zigzag /> {/*todo расписание и награды*/}
       <Testimonials /> {/*todo эксперты*/}

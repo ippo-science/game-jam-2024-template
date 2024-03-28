@@ -31,10 +31,11 @@ export default function Hero() {
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
+                {/*todo login*/}
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Регистрация</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Расписание</a>
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#roadmap">Расписание</a>
               </div>
             </div>
           </div>
@@ -45,14 +46,14 @@ export default function Hero() {
 
 
           {/*todo здесь видос который ты мне показал*/}
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1024}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
+        {/*  <ModalVideo*/}
+        {/*    thumb={VideoThumb}*/}
+        {/*    thumbWidth={1024}*/}
+        {/*    thumbHeight={576}*/}
+        {/*    thumbAlt="Modal video thumbnail"*/}
+        {/*    video="/videos/video.mp4"*/}
+        {/*    videoWidth={1920}*/}
+        {/*    videoHeight={1080} />*/}
         </div>
 
       </div>
