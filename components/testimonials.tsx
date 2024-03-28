@@ -1,6 +1,4 @@
-import Image from 'next/image'
 
-import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
 import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 import Expert1 from '@/public/images/expert-1.jpg'
 import Expert2 from '@/public/images/expert-2.jpg'
@@ -27,7 +25,7 @@ export default function Testimonials() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
           <PeopleCard image={Expert1} name="Соня Жеревчук" position="Куратор проекта Indie Go"
                       text="Я занимаюсь разработкой игр уже много лет. Я знаю, что нужно для того, чтобы создать игру, которая понравится игрокам."/>
-            <PeopleCard image={Expert2} name="Михаил Коваленко" position="Наставкник стартап-проектов Science Crew"
+            <PeopleCard image={Expert2} name="Михаил Коваленко" position="Наставник стартап-проектов Science Crew"
                         text="Я занимаюсь разработкой игр уже много лет. Я знаю, что нужно для того, чтобы создать игру, которая понравится игрокам."/>
             <PeopleCard image={TestimonialImage03} name="Александр Шульгин" position="Руководитель проектов"
                         text="Я занимаюсь разработкой игр уже много лет. Я знаю, что нужно для того, чтобы создать игру, которая понравится игрокам."/>

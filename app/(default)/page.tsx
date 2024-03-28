@@ -15,14 +15,13 @@ import Prizes from "@/components/prizes";
 export default function Home() {
   return (
     <>
-      <Hero /> {/*todo видос и основная мнафа*/}
-      <Features /> {/*todo описание геймджема*/}
-        <Partners /> {/*todo партнеры*/}
-
+      <Hero /> {/*todo видос */}
+      <Features />
+        <Partners />
         <Prizes />
-      <Zigzag /> {/*todo расписание и награды*/}
-      <Testimonials /> {/*todo эксперты*/}
-        <FAQ /> {/*todo вопросы и ответы*/}
+      <Zigzag />
+      <Testimonials /> {/*todo экспертов добить*/}
+        <FAQ />
 
     </>
   )

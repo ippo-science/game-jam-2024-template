@@ -39,13 +39,10 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          {/*todo для чего сайт: только регистрация?
-              остается темная тема?
-              постер на фон?
-          */}
 
 
-          {/*todo здесь видос который ты мне показал*/}
+
+          {/*todo здесь видос */}
         {/*  <ModalVideo*/}
         {/*    thumb={VideoThumb}*/}
         {/*    thumbWidth={1024}*/}
