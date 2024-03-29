@@ -2,6 +2,7 @@
 import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 import Expert1 from '@/public/images/expert-1.jpg'
 import Expert2 from '@/public/images/expert-2.jpg'
+import Expert3 from '@/public/images/expert-3.jpg'
 import PeopleCard from "@/components/people-card";
 import React from "react";
 
@@ -24,20 +25,12 @@ export default function Testimonials() {
           {/* Testimonials */}
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
           <PeopleCard image={Expert1} name="Соня Жеревчук" position="Куратор проекта Indie Go"
-                      text="Я занимаюсь разработкой игр уже много лет. Я знаю, что нужно для того, чтобы создать игру, которая понравится игрокам."/>
-            <PeopleCard image={Expert2} name="Михаил Коваленко" position="Наставник стартап-проектов Science Crew"
-                        text="Я занимаюсь разработкой игр уже много лет. Я знаю, что нужно для того, чтобы создать игру, которая понравится игрокам."/>
-            <PeopleCard image={TestimonialImage03} name="Александр Шульгин" position="Руководитель проектов"
-                        text="Я занимаюсь разработкой игр уже много лет. Я знаю, что нужно для того, чтобы создать игру, которая понравится игрокам."/>
-
-
-
-
-
-
-
+                      text="Инди Геймджем - это не только конкурс, но и возможность для личного и профессионального роста."/>
+            <PeopleCard image={Expert2} name="Михаил Коваленко" position="Наставник стартап-проектов IPPO Science"
+                        text="Менторо хакатонов, координаторо ВКРСт и стартап-проектов для конкурсов Фонда содействия инновациям."/>
+            <PeopleCard image={Expert3} name="Владимир Вареник" position="Гендиректор Mensa VR"
+                        text="Ценность игр как искусства возникает только тогда, когда большое количество людей это признает."/>
           </div>
-
         </div>
       </div>
     </section>

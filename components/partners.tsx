@@ -18,7 +18,7 @@ const partners = [
   {
     name: "МИРЭА",
     description: "Российский технологический университет",
-    inf: "Тот, без кого такое мероприятие не состоялось",
+    inf: "Кафедра Игровой индустрии РТУ МИРЭА",
     link: "https://www.mirea.ru/",
     img: "/images/logo-mirea.png"
   }

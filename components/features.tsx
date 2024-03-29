@@ -1,7 +1,7 @@
 export default function Features() {
   return (
     <section id={"description"}>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
         <div className="py-12 md:py-20">
 
           {/* Section header */}
@@ -67,7 +67,7 @@ export default function Features() {
               </svg>
               <h4 className="h4 mb-2">Погружение</h4>
               <p className="text-lg text-gray-400 text-center">
-                72 часа на создание игры. Это время, когда вы забудете о мире вокруг и погрузитесь в GameDEV.
+                96 часов на создание игры. Это время, когда вы забудете о мире вокруг и погрузитесь в GameDEV.
               </p>
             </div>
 

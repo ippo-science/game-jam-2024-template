@@ -9,8 +9,8 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="Cruip">
-              <img src="/images/logo.svg" alt="Cruip" width="32" height="32" />
+            <Link href="/" className="block" aria-label="Indie Gamejame">
+              <img src="/images/logo.svg" alt="Indie Gamejam" width="32" height="32" />
             </Link>
           </div>
 
