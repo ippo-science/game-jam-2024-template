@@ -23,10 +23,11 @@ export default function Prizes() {
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none h4 mb-2 text-center">
-            <PrizeCard money={'75 000'} img={Golden}/>
-            <PrizeCard money={'50 000'} img={Silver}/>
-            <PrizeCard money={'25 000'} img={Bronze}/>
+          <div
+              className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none h4 mb-2 text-center">
+            <PrizeCard money={'150 000'} img={Golden}/>
+            <PrizeCard money={'100 000'} img={Silver}/>
+            <PrizeCard money={'50 000'} img={Bronze}/>
           </div>
 
         </div>

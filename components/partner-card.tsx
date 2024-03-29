@@ -3,11 +3,12 @@ import Image from "next/image";
 interface PartnerCardProps{
     img: string,
     name: string,
+    inf: string,
     description: string,
     link: string
 }
 
-export default function PartnerCard({img, name, description, link}: PartnerCardProps) {
+export default function PartnerCard({img, name, inf, description, link}: PartnerCardProps) {
     return(
     <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up" data-aos-delay="200">
         <div>
@@ -20,11 +21,11 @@ export default function PartnerCard({img, name, description, link}: PartnerCardP
             </div>
 
         </div>
-        <blockquote className="text-lg text-gray-400 grow">{description}
+        <blockquote className="text-lg text-gray-400 grow text-center">{inf}
         </blockquote>
         <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-            <cite className="text-gray-200 not-italic">{name}</cite> - <a
-            className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href={link}>Подробнее</a>
+            <cite className="text-gray-200 not-italic ">{name}</cite> - <a
+            className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href={link}>{description}</a>
         </div>
     </div>)
 
