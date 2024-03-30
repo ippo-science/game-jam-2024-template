@@ -1,5 +1,3 @@
-
-import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
 import Expert1 from '@/public/images/expert-1.jpg'
 import Expert2 from '@/public/images/expert-2.jpg'
 import Expert3 from '@/public/images/expert-3.jpg'

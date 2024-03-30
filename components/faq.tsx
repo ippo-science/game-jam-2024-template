@@ -1,16 +1,6 @@
-import Image from 'next/image'
-
-import TestimonialImage01 from '@/public/images/testimonial-01.jpg'
-import TestimonialImage02 from '@/public/images/testimonial-02.jpg'
-import TestimonialImage03 from '@/public/images/testimonial-03.jpg'
-import PeopleCard from "@/components/people-card";
 import React from "react";
 import FaqCard from "@/components/faq-card";
 const faqs = [
-  {
-    question: "Сколько человек должно быть в команде?",
-    answer: "Команда от 2 до 6 человек."
-  },
   {
     question: "Какие требования к команде?",
     answer: "Команда от 2 до 6 человек, в возрасте от 18 до 25 лет вчключительно. Название команды должно быть читаемым и легко произносимым в публичном поле."
@@ -22,7 +12,7 @@ const faqs = [
 
   },
   {
-    question: "Где и как найти команду?",
+    question: "Где и как найти команду, если я один?",
     answer: "Можно оставить сообщение с поиском команды в нашем Телеграм-чате или сообществе в ВК."
 
   },
@@ -46,7 +36,6 @@ const faqs = [
     {
     question: "Куда загружать проекты?",
     answer: "На платформу Rusitch на страницу Инди Геймджема 2024"
-
     }
 
 ]

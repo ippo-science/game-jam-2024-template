@@ -8,7 +8,7 @@ export default function Hero() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
-        {/* Illustration behind hero content, bottom-0 -ml-20 */}
+        {/* Illustration behind hero content | bottom-0 -ml-20 */}
         <div className="absolute left-0 -bottom-30 -ml-40 hidden lg:block pointer-events-none" aria-hidden="true" data-aos="fade-up" data-aos-delay="400">
           {/*<svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -35,7 +35,7 @@ export default function Hero() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 {/*todo login*/}
-                <a className="btn text-black bg-cyan-500 hover:bg-cyan-600 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Регистрация</a>
+                <a className="btn text-black bg-cyan-500 hover:bg-cyan-600 w-full mb-4 sm:w-auto sm:mb-0" href="http://rusitch.ru/jams/indi-geymdzhem-2024">Регистрация</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#roadmap">Расписание</a>

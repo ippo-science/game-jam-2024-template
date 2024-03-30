@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react'
-import Link from 'next/link'
 
 export default function MobileMenu() {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false)
@@ -69,7 +68,7 @@ export default function MobileMenu() {
           <li>
             {/*todo login*/}
             <a
-              href="#"
+              href="http://rusitch.ru/jams/indi-geymdzhem-2024"
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-black bg-cyan-500 hover:bg-cyan-600 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
                 Регистрация
