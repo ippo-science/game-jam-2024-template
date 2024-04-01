@@ -3,6 +3,7 @@ import Expert2 from '@/public/images/expert-2.jpg'
 import Expert3 from '@/public/images/expert-3.jpg'
 import PeopleCard from "@/components/people-card";
 import React from "react";
+import {StaticImageData} from "next/image";
 
 export default function Testimonials() {
   return (
@@ -22,11 +23,11 @@ export default function Testimonials() {
 
           {/* Testimonials */}
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
-          <PeopleCard image={Expert1} name="Соня Жеревчук" position="Куратор проекта Indie Go"
+          <PeopleCard image={Expert1 as StaticImageData} name="Соня Жеревчук" position="Куратор проекта Indie Go"
                       text="Инди Геймджем - это не только конкурс, но и возможность для личного и профессионального роста."/>
-            <PeopleCard image={Expert2} name="Михаил Коваленко" position="Наставник стартап-проектов IPPO Science"
+            <PeopleCard image={Expert2 as StaticImageData} name="Михаил Коваленко" position="Наставник стартап-проектов IPPO Science"
                         text="Ментор хакатонов, координатор ВКРСт и стартап-проектов для конкурсов Фонда содействия инновациям."/>
-            <PeopleCard image={Expert3} name="Владимир Вареник" position="Гендиректор Mensa VR"
+            <PeopleCard image={Expert3 as StaticImageData} name="Владимир Вареник" position="Гендиректор Mensa VR"
                         text="Ценность игр как искусства возникает только тогда, когда большое количество людей это признает."/>
           </div>
         </div>

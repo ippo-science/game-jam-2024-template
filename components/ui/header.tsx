@@ -28,7 +28,7 @@ export default function Header() {
               </li>
               <li>
                 {/*todo login*/}
-                <a href="http://rusitch.ru/jams/indi-geymdzhem-2024" className="btn-sm text-black bg-cyan-500 hover:bg-cyan-600 ml-3">
+                <a href="https://forms.yandex.ru/u/660a71c3068ff00533a98b35/" className="btn-sm text-black bg-cyan-500 hover:bg-cyan-600 ml-3">
                   Регистрация
                 </a>
               </li>

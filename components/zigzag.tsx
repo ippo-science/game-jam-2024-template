@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image, {StaticImageData} from 'next/image'
 
 import PeopleCard from "@/components/people-card";
 import Image01 from '@/public/images/start-line.svg'
@@ -97,7 +97,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01} width={340}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image01 as StaticImageData} width={340}
                                height={405} alt="Features 01"/>
                     </div>
                     {/* Content */}
@@ -115,7 +115,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image02} width={340}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image02 as StaticImageData} width={340}
                                height={405} alt="Features 04"/>
                     </div>
                     <DescriptionCard
@@ -140,7 +140,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image03} width={340}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image03 as StaticImageData} width={340}
                                height={405} alt=""/>
                     </div>
                     {/* Content */}
@@ -160,7 +160,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 "
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image04} width={340}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image04 as StaticImageData} width={340}
                                height={405} alt="Features 04"/>
                     </div>
                     <DescriptionCard
@@ -180,7 +180,7 @@ export default function Zigzag() {
                     <div
                         className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0"
                         data-aos="fade-up">
-                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image05} width={340}
+                        <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Image05 as StaticImageData} width={340}
                                height={405} alt="Features 01"/>
                     </div>
                     {/* Content */}

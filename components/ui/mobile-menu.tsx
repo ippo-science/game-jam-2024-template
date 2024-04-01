@@ -68,7 +68,7 @@ export default function MobileMenu() {
           <li>
             {/*todo login*/}
             <a
-              href="http://rusitch.ru/jams/indi-geymdzhem-2024"
+              href="https://forms.yandex.ru/u/660a71c3068ff00533a98b35/"
               className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-black bg-cyan-500 hover:bg-cyan-600 transition duration-150 ease-in-out" onClick={() => setMobileNavOpen(false)}
             >
                 Регистрация
