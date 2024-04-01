@@ -28,6 +28,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">Инди Геймджем</h1>
+            <h1 className="h1 mb-4 text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-20% to-emerald-500 to-60% inline-block" data-aos="fade-up">2024</h1>
 
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
               Успейте зарегистрироваться до 10 апреля 2024 года
@@ -35,18 +36,19 @@ export default function Hero() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 {/*todo login*/}
-                <a className="btn text-black bg-cyan-500 hover:bg-cyan-600 w-full mb-4 sm:w-auto sm:mb-0" href="https://forms.yandex.ru/u/660a71c3068ff00533a98b35/">Регистрация</a>
+                <a className="btn text-black bg-cyan-500 hover:bg-cyan-600 w-full mb-4 sm:w-auto sm:mb-0"
+                   href="https://forms.yandex.ru/u/660a71c3068ff00533a98b35/">Регистрация</a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#roadmap">Расписание</a>
+                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                   href="#roadmap">Расписание</a>
               </div>
             </div>
           </div>
 
 
-
           {/*todo здесь видос */}
-        {/*  <ModalVideo*/}
+          {/*  <ModalVideo*/}
         {/*    thumb={VideoThumb}*/}
         {/*    thumbWidth={1024}*/}
         {/*    thumbHeight={576}*/}

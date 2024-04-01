@@ -2,7 +2,7 @@ export default function Features() {
   return (
     <section id={"description"}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        <div className="py-12 md:py-20">
+        <div className="py-12 md:py-20" data-aos="fade-up">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">

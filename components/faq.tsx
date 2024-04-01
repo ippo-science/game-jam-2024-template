@@ -55,7 +55,7 @@ export default function FAQ() {
                 {/*Они расскажут вам о своем опыте и поделятся советами, которые помогут вам стать лучше.*/}
               Узнать подробные условия проведения можно в <a className={"text-purple-600"}
                                                              style={{textDecoration: "underline"}}
-                                                             href={"/rules"}>Положении о геймджеме</a>.
+                                                             href={"/documents/IndieGameJam-2024-Polojeniye.pdf"}>Положении о геймджеме</a>.
             </p>
 
           </div>

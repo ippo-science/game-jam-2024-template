@@ -15,16 +15,16 @@ export default function Prizes() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Награды</h2>
             <p className="text-xl text-gray-400">
-                Общий призовой фонд 300 000 рублей!
+                Общий призовой фонд 250 000 рублей!
             </p>
           </div>
 
           {/* Testimonials */}
           <div
               className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none h4 mb-2 text-center">
-            <PrizeCard money={'150 000 ₽'} img={Golden as StaticImageData}/>
-            <PrizeCard money={'100 000 ₽'} img={Silver as StaticImageData}/>
-            <PrizeCard money={'50 000 ₽'} img={Bronze as StaticImageData}/>
+            <PrizeCard money={'100 000 ₽'} img={Golden as StaticImageData} description={'место в GameDev-акселераторе'}/>
+            <PrizeCard money={'75 000 ₽'} img={Silver as StaticImageData} description={'консультация экспертов по упаковке игрового проекта'}/>
+            <PrizeCard money={'50 000 ₽'} img={Bronze as StaticImageData} description={'игровые мышки GMNG 939GM'}/>
           </div>
 
         </div>

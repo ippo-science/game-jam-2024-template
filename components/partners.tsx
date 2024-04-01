@@ -47,9 +47,6 @@ export default function Partners() {
                   <PartnerCard img={partner.img} inf={partner.inf} description={partner.description} name={partner.name} link={partner.link} key={index}/>
                 ))
             }
-
-
-
           </div>
 
         </div>
