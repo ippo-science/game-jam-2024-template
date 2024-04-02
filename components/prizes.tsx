@@ -22,8 +22,8 @@ export default function Prizes() {
           {/* Testimonials */}
           <div
               className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none h4 mb-2 text-center">
-            <PrizeCard money={'100 000 ₽'} img={Golden as StaticImageData} description={'место в GameDev-акселераторе'}/>
-            <PrizeCard money={'75 000 ₽'} img={Silver as StaticImageData} description={'консультация экспертов по упаковке игрового проекта'}/>
+            <PrizeCard money={'100 000 ₽'} img={Golden as StaticImageData} description={'объявим позднее'}/>
+            <PrizeCard money={'75 000 ₽'} img={Silver as StaticImageData} description={'объявим позднее'}/>
             <PrizeCard money={'50 000 ₽'} img={Bronze as StaticImageData} description={'игровые мышки GMNG 939GM'}/>
           </div>
 
