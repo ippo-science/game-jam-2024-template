@@ -27,7 +27,7 @@ export default function Testimonials() {
           <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
           <PeopleCard image={Expert1 as StaticImageData} name="Соня Жеревчук" position="Куратор проекта Indie Go"
                       text="Расскажу как эффективно презентовать проект на питчингах и как правильно к ним подготовиться."/>
-            <PeopleCard image={Expert2 as StaticImageData} name="Михаил Коваленко" position="Наставник стартап-проектов IPPO Science"
+            <PeopleCard image={Expert2 as StaticImageData} name="Михаил Коваленко" position="Наставник стартап-проектов ИППО Science"
                         text="Ментор хакатонов, координатор ВКРСт и стартап-проектов для ФСИ, основной организатор Инди Геймджема."/>
             <PeopleCard image={Expert3 as StaticImageData} name="Владимир Вареник" position="Гендиректор Mensa VR"
                         text="Ценность игр как искусства возникает только тогда, когда большое количество людей это признает."/>
