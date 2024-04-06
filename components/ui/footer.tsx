@@ -54,7 +54,7 @@ export default function Footer() {
                     </li>
                     <li className="mb-1">
                       {/*todo reglament*/}
-                      <a href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      <a href="https://cloud.mirea.ru/index.php/s/txxPrPyqqBmDJT8" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                         Положение о проведении</a>
                     </li>
                     <li className="mb-1">
