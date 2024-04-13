@@ -27,8 +27,8 @@ export default function DescriptionCard({ title, description, list, date_start, 
                 </ul>{
                 /*todo login*/}
                 {withButt ?
-                    <a href="https://forms.yandex.ru/u/660a71c3068ff00533a98b35/" className="btn-sm text-black bg-cyan-500 hover:bg-cyan-600 ml-3 items-center mt-4 max-w-max">
-                        Регистрация
+                    <a href="http://rusitch.ru/jams/indi-geymdzhem-2024/" className="btn-sm text-black bg-cyan-500 hover:bg-cyan-600 ml-3 items-center mt-4 max-w-max">
+                        Отправить проект
                     </a> : null}
             </div>
         </div>

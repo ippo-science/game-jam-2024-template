@@ -47,14 +47,18 @@ export default function Footer() {
                   <h6 className="text-gray-200 font-medium mb-1">Участие</h6>
                   <ul>
                     <li className="mb-1">
-                      {/*todo login */}
-                      <a href=""
+                      <a href="https://forms.yandex.ru/u/660a71c3068ff00533a98b35/"
                          className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                         Зарегистрироваться</a>
                     </li>
                     <li className="mb-1">
-                      {/*todo reglament*/}
-                      <a href="https://cloud.mirea.ru/index.php/s/txxPrPyqqBmDJT8" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      <a href="http://rusitch.ru/jams/indi-geymdzhem-2024/"
+                         className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                        Отправить проект</a>
+                    </li>
+                    <li className="mb-1">
+                      <a href="https://cloud.mirea.ru/index.php/s/txxPrPyqqBmDJT8"
+                         className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                         Положение о проведении</a>
                     </li>
                     <li className="mb-1">
